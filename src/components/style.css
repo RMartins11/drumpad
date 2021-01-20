@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@200;500;700;800&display=swap');
+
+.controls-container {
+  float: right;
+  width: 24.8vh;
+  height: 28.1vh;
+  margin: 4.13vh 2.07vh 0 1.03vh;
+  vertical-align: top;
+  font-family: Texturina;
+  } 
+.controls-container > .control {
+    width: 10.32vh;
+    margin: auto;
+  }
+  .controls-container > .control > p {
+    margin-bottom: 0;
+  }
+.controls-container > #display {
+    width: 20.64vh;
+    background-color: gray;
+    margin: 1.55vh auto;
+    padding: 1.55vh;
+    box-sizing: border-box;
+  }
+  .select {
+    margin: auto;
+    border: 0.1vh solid black;
+    width: 5.16vh;
+    height: 2.1vh;
+    padding: 0.1vh;
+    background-color: black;
+  }
+
+.inner-select {
+width: 2.4vh;
+height: 2.1vh;
+background: gold;
+border: 0.1vh solid black;
+box-sizing: border-box;
+cursor: pointer;
+}
+
+#display {
+width: 20.6vh;
+background-color: gray;
+margin: 1.55vh auto;
+padding: 1.55vh;
+box-sizing: border-box;
+}
+
+
+.inner-container {
+outline: 0.5vh solid gold;
+position: relative;
+width: 68.1vh;
+text-align: center;
+background-color: lighten(grey, 20%);
+}
+.pad-bank {
+  width: 34.3vh;
+  height: 28.01vh;
+  display: inline-block;
+  margin: 2.1vh;
+  margin-top: 1vh;
+}
+  .drum-pad {
+    position: relative;
+    float: left;
+    width: 10.32vh;
+    height: 8.26vh;
+    margin-right: 1.03vh;
+    border-radius: 0.52vh;
+    padding-top: 3.62vh;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  
+  @media screen and (max-width: 650px) {
+    .inner-container {
+      transform: scale(0.8);
+      height: 80vh;
+    }
+    .pad-bank {
+      margin-top: 4vh;
+      margin-right: 6vh;
+      transform: scale(1.1);
+      }
+      .controls-container {
+        margin-right: 17vh;
+        margin-top: 10vh;
+      }
+  } 
